@@ -1,0 +1,1002 @@
+{
+  "id": "9f85634c-5176-440c-a8ae-9d3da9d09c0e",
+  "version": "2.0",
+  "name": "TOMMY diplom",
+  "url": "http://shop.ck.ua/",
+  "tests": [{
+    "id": "f81c0a3b-58cd-4632-9bf1-2efb01f30afe",
+    "name": "Equivalence partitioning ID1",
+    "commands": [{
+      "id": "8f9b32c9-872c-43d3-8411-b30fb7bd393c",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d25e0818-9cac-432f-8225-b36c6dc28ce6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "529ed863-9fa7-479e-85e7-40f84e3e1fb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=register",
+      "targets": [
+        ["id=register", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=#register", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register']", "xpath:attributes"],
+        ["xpath=//div[@id='account']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'user/register')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad352ad-d659-48f8-bf6a-a6e556892e38",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Парфюмерия",
+      "targets": [
+        ["linkText=Парфюмерия", "linkText"],
+        ["css=#namber_396 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Парфюмерия')]", "xpath:link"],
+        ["xpath=//li[@id='namber_396']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'catalog/parfyumeriya')]", "xpath:href"],
+        ["xpath=//div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Парфюмерия')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4311b634-ebc0-4ea2-8da1-7208c2a761fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "623065e8-f7bc-4450-a61f-09c4aaa9ae26",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": "Ruslan"
+    }, {
+      "id": "1dd2993b-7bd6-4d2b-a08e-2646a1c50b1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form > input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/form/input[2]", "xpath:position"]
+      ],
+      "value": "gra.dp.kr@gmail.com"
+    }, {
+      "id": "dd4258c0-8b31-428d-8abd-88fcb2952d2d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "aab9a36b-ecd6-479b-83d4-003f5968b11c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcba3306-44eb-404e-979b-25edfc57548b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b63542-d8cb-4826-9bde-3478d55dfc9b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a865709-7b55-4297-b6e9-e13558821b6a",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.button:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a2ca5b1-0c59-4e0e-978a-afa6af2872c0",
+    "name": "Boundary values ID5",
+    "commands": [{
+      "id": "ec92fdd9-8259-417c-8aee-b0c43d952908",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17e9e4a0-84aa-47f7-9c10-ffe43bf50915",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cff8c6a2-fc68-49ae-941a-4376e4ae7b43",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Компьютеры",
+      "targets": [
+        ["linkText=Компьютеры", "linkText"],
+        ["css=.selected", "css:finder"],
+        ["xpath=//a[contains(text(),'Компьютеры')]", "xpath:link"],
+        ["xpath=//li[@id='namber_23']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'catalog/kompyutery')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59349d30-38e7-4f68-9f90-634ec8adf889",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=#namber_38 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//li[@id='namber_38']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'catalog/noutbuki')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b62a769-b850-43fd-8301-a4029e5d6ad2",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3393806b-4bde-4acb-9b6e-78b0ca81001d",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "1a54299d-d3d0-46af-b5b2-3bda4ac7217b",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ec05599-dbf3-43e9-9ce8-5581193f6a4a",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "1d639edb-3fd7-49de-a3a8-82971d54b52b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-submit:nth-child(1)",
+      "targets": [
+        ["css=.price-submit:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0c60bd1-8df8-4cc7-be35-d35e8bb6c860",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ed065079-49d9-4c8c-9c63-1b5852af1787",
+    "name": "Exploratory testing ID12",
+    "commands": [{
+      "id": "460c8a15-f54d-4b1b-87bb-3ca0a5b2120c",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a91b55d0-468f-40b1-a5d7-d8794ac7f643",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fa50e41-8730-49b8-9fb5-c9fe60ddde51",
+      "comment": "",
+      "command": "type",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=.input_search", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+    }, {
+      "id": "aa4741b6-2d40-4e84-af78-8b2aa0524dd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_search",
+      "targets": [
+        ["css=.button_search", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f10a6769-f404-4a52-ae6a-a9cbae0f8ef1",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=cat_t",
+      "targets": [
+        ["id=cat_t", "id"],
+        ["css=#cat_t", "css:finder"],
+        ["xpath=//div[@id='cat_t']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "cc71c865-08ba-4ae6-8710-4590be5565d4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cf9b5a49-b5cd-4a3c-881a-495b0c521024",
+    "name": "ExpTest ID13",
+    "commands": [{
+      "id": "701fac1f-0756-42f2-9dfb-641b81e4b52a",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dad9202d-dfae-476e-9678-cca230f26244",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "816792da-32ed-4465-b6bc-514f5beebc8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Заказ звонка",
+      "targets": [
+        ["linkText=Заказ звонка", "linkText"],
+        ["css=.callbackLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Заказ звонка')]", "xpath:link"],
+        ["xpath=//div[@id='text_h']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Заказ звонка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e25899-665d-4565-8c55-e10ded57c9b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=callback_name",
+      "targets": [
+        ["id=callback_name", "id"],
+        ["name=name", "name"],
+        ["css=#callback_name", "css:finder"],
+        ["xpath=//input[@id='callback_name']", "xpath:attributes"],
+        ["xpath=//div[@id='CallbackWindow']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da821360-1b34-4adc-a957-a47c743703d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=callback_name",
+      "targets": [
+        ["id=callback_name", "id"],
+        ["name=name", "name"],
+        ["css=#callback_name", "css:finder"],
+        ["xpath=//input[@id='callback_name']", "xpath:attributes"],
+        ["xpath=//div[@id='CallbackWindow']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Ruslan"
+    }, {
+      "id": "fc66d46d-6f15-4984-9d00-1be1f5712c35",
+      "comment": "",
+      "command": "click",
+      "target": "id=callback_phone",
+      "targets": [
+        ["id=callback_phone", "id"],
+        ["name=phone", "name"],
+        ["css=#callback_phone", "css:finder"],
+        ["xpath=//input[@id='callback_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='CallbackWindow']/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bcc99d0-871a-4925-8dd5-5ce3cf061209",
+      "comment": "",
+      "command": "type",
+      "target": "id=callback_phone",
+      "targets": [
+        ["id=callback_phone", "id"],
+        ["name=phone", "name"],
+        ["css=#callback_phone", "css:finder"],
+        ["xpath=//input[@id='callback_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='CallbackWindow']/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "000"
+    }, {
+      "id": "74af4eb7-26a0-4673-a069-dec805027b49",
+      "comment": "",
+      "command": "click",
+      "target": "id=callback_subject_new_order",
+      "targets": [
+        ["id=callback_subject_new_order", "id"],
+        ["name=subject", "name"],
+        ["css=#callback_subject_new_order", "css:finder"],
+        ["xpath=//input[@id='callback_subject_new_order']", "xpath:attributes"],
+        ["xpath=//div[@id='CallbackWindow']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d74de97e-84d9-402f-beb7-109a0157c476",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "6013162d-22e4-4067-8106-e20c4c77f280",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a78f2865-d766-4125-90f5-05314e2036a2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "449e1d85-fe81-4491-85dc-2af0cf6e6cfe",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.button:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='CallbackWindow']/div/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3359c3e6-a5dc-42ea-94f7-2f307baccf65",
+    "name": "ID14",
+    "commands": [{
+      "id": "a1e2d4d7-19a3-4ffe-a03e-d4991eb00ecd",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea6ad2a2-1f24-4b3a-ba85-1f65fed86edb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a567ed70-06c7-4880-9c1c-640865afcaf9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[4]/div/div/ul/li[2]/a",
+      "targets": [
+        ["linkText=Компьютеры", "linkText"],
+        ["css=#namber_23 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Компьютеры')]", "xpath:link"],
+        ["xpath=//li[@id='namber_23']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'catalog/kompyutery')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Компьютеры')]", "xpath:innerText"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "32e25909-bfad-4281-81fb-08a06486853e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=(//a[contains(text(),'Ноутбуки')])[2]",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=#namber_38 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//li[@id='namber_38']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'catalog/noutbuki')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "cb3ecde7-cd17-4fba-8404-ee02ea4a1f1c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=#namber_38 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//li[@id='namber_38']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'catalog/noutbuki')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10d7b30c-c32a-4204-a140-d8ee30948f3f",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6944c1c8-82ab-49c4-bc7e-29e580b355e4",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "недорого"
+    }, {
+      "id": "b9c472a8-3815-4919-aea1-f47f01063394",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "дорого"
+    }, {
+      "id": "da3eebdb-ead8-43eb-84cc-f1636fc3b97e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-submit:nth-child(1)",
+      "targets": [
+        ["css=.price-submit:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f809b40f-3c79-4ba4-beb8-495087ba5d9c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2e835a80-b4a1-430a-bda9-f5bbb77d0b44",
+    "name": "ID7",
+    "commands": [{
+      "id": "3869c4c7-5e75-4bd6-a686-cdc2d7cb2768",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67baf215-133b-42d4-abcd-711f8c1004d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef54e51f-0558-485e-9ac9-34fb6869b407",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[4]/div/div/ul/li[2]/a",
+      "targets": [
+        ["linkText=Компьютеры", "linkText"],
+        ["css=#namber_23 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Компьютеры')]", "xpath:link"],
+        ["xpath=//li[@id='namber_23']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'catalog/kompyutery')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27d784fe-9eeb-485b-a2ce-638a63f83e0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=#namber_38 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//li[@id='namber_38']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'catalog/noutbuki')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bc66035-d61b-4310-8b7e-84afeca86c89",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd19f32f-c37e-4f7e-b2fd-5436ae29ad07",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "-9"
+    }, {
+      "id": "70d40d29-7c54-4ceb-abdd-fb5cf059bdfd",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a9dbb3b-6d35-4899-9289-8267b71c5301",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "99999999"
+    }, {
+      "id": "f4186d49-ea9e-4c2c-8990-bbfdb829138a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-submit:nth-child(1)",
+      "targets": [
+        ["css=.price-submit:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "371a1d98-d0fd-4b80-a06e-25ee965a433f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбук MSI Alpha 15B5EEK-081XUA",
+      "targets": [
+        ["linkText=Ноутбук MSI Alpha 15B5EEK-081XUA", "linkText"],
+        ["css=.product:nth-child(1) .normal", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбук MSI Alpha 15B5EEK-081XUA')]", "xpath:link"],
+        ["xpath=//div[@id='cat_t']/div[5]/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'products/noutbuk-msi-alpha-15b5eek-081xua-543044')])[3]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57c3fc52-f98c-46c8-8669-31b99c2f9aca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ee5f3462-5079-4d1b-a755-4f7c577e8db3",
+    "name": "7",
+    "commands": []
+  }, {
+    "id": "b52f11f2-9912-47e5-8b93-80a4bd919c55",
+    "name": "ID8",
+    "commands": [{
+      "id": "218703bd-12fa-42fe-b9fb-b3b201157294",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c524597-52c5-4351-980a-544b1d2b3fee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecdd91c6-865b-4bb7-8089-64dbced5e291",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[4]/div/div/ul/li[2]/a",
+      "targets": [
+        ["linkText=Компьютеры", "linkText"],
+        ["css=#namber_23 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Компьютеры')]", "xpath:link"],
+        ["xpath=//li[@id='namber_23']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'catalog/kompyutery')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a42c6f-ae57-45d0-8aab-d29c47ba5b72",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=#namber_38 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//li[@id='namber_38']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'catalog/noutbuki')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd94f8cd-b56d-4d7d-81d0-c79ca53deaf5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,326)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a95b932-5b79-46d2-8296-5de9a95a23d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a42e61dc-7347-44ae-816f-8b381b2664f6",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "aab34121-a575-4e18-85f7-32ba5be4438c",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dd236a5-179c-44ba-ac30-c27a2e235406",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-9"
+    }, {
+      "id": "9ebfe871-09f1-40b3-99e0-c303aac602e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-submit:nth-child(1)",
+      "targets": [
+        ["css=.price-submit:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e300620f-1a44-42e2-9473-05e5958cac00",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ec2b36-ceae-4c12-87bd-677e4bd90c74",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d52bbfb1-5dc2-4972-a2a1-a1862c8fe2a2",
+    "name": "9",
+    "commands": []
+  }, {
+    "id": "b2bc3357-5bc0-45c7-872c-dd2fe7d8aaa0",
+    "name": "ID6",
+    "commands": [{
+      "id": "06908395-2ff7-4510-8e0c-4e5dfcc54913",
+      "comment": "",
+      "command": "open",
+      "target": "http://shop.ck.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c44f3223-9b49-4e2c-b64b-271e96b99ae3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1188x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0de1fde4-e368-4616-9db1-9fb1e7a68cb2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[4]/div/div/ul/li[2]/a",
+      "targets": [
+        ["linkText=Компьютеры", "linkText"],
+        ["css=#namber_23 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Компьютеры')]", "xpath:link"],
+        ["xpath=//li[@id='namber_23']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'catalog/kompyutery')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88bbcc93-207a-4a4b-83e9-f1551b7fdd3e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=#namber_38 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//li[@id='namber_38']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'catalog/noutbuki')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "701b4637-d967-4d2c-8892-5103a9128dc4",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab85ed9-bf05-423f-8c4b-cc888181e52f",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-min",
+      "targets": [
+        ["name=price-min", "name"],
+        ["css=.price-input-min > input", "css:finder"],
+        ["xpath=//input[@name='price-min']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "e9e4eed9-a959-4cd6-8e2d-dd02cb09fb36",
+      "comment": "",
+      "command": "click",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5307fd42-6094-4537-92b2-3c121dfb41b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=price-max",
+      "targets": [
+        ["name=price-max", "name"],
+        ["css=.price-input-max > input", "css:finder"],
+        ["xpath=//input[@name='price-max']", "xpath:attributes"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "10000000"
+    }, {
+      "id": "107de49e-40b2-43bd-af23-26f5d1400829",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-submit:nth-child(1)",
+      "targets": [
+        ["css=.price-submit:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='products-filter']/div/ul/li[2]/div[2]/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19a074a0-eb19-499d-9e15-96e755991e36",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8db79890-6011-4499-9049-a7db799dc293",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f81c0a3b-58cd-4632-9bf1-2efb01f30afe"]
+  }],
+  "urls": ["http://shop.ck.ua/"],
+  "plugins": []
+}
